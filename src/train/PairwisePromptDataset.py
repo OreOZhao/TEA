@@ -11,7 +11,7 @@ class PairwisePromptDataset(Dataset):
         self.cls_token = cls_token
         self.sep_token = sep_token
         self.pad_token = 0
-        self.temp_tids = temp_tids  # if name is not None, [tids list of prompt_template_with_name], else tids
+        self.temp_tids = temp_tids
         self.ent2name1 = ent2name1
         self.ent2name2 = ent2name2
 
