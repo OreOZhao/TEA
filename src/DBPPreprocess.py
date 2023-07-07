@@ -50,8 +50,6 @@ for dataset in datasets:
     load_oea_file('/'.join((dataset_new_path, 'ent_links')), '/'.join((dataset_new_path, 'ent_links')),
                   Parser.OEAFileType.truth)
 
-    folds = os.listdir('mapping')
-    print(folds)
     ent_links = FileTools.load_list('/'.join((dataset_new_path, 'ent_links')))
     random.seed(11037)
     random.shuffle(ent_links)
