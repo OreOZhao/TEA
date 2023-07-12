@@ -59,3 +59,25 @@ You could also run FT-EA with `src/FTEATrain.py`.
 
 ## Acknowledgements
 Our codes are modified based on [SDEA](https://github.com/zhongziyue/SDEA). We would like to appreciate their open-sourced work.
+
+## Citation
+Please cite the following paper as reference if you find our work useful.
+
+```bibtex
+@inproceedings{zhao-etal-2023-alignment,
+    title = "From Alignment to Entailment: A Unified Textual Entailment Framework for Entity Alignment",
+    author = "Zhao, Yu  and
+      Wu, Yike  and
+      Cai, Xiangrui  and
+      Zhang, Ying  and
+      Zhang, Haiwei  and
+      Yuan, Xiaojie",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.559",
+    pages = "8795--8806",
+}
+```
